@@ -1,0 +1,17 @@
+// To use variables on SASS
+@use 'variables'
+    
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: variables.$font-stack
+
+body
+    background-color: variables.$body-bg-color
+    color: variables.$text-color
+
+a, svg
+    transition: .4s
+    text-decoration: none
+    
