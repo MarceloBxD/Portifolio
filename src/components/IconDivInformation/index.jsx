@@ -3,7 +3,7 @@ import { AiFillEnvironment, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 
 export const IconDivInformation = () => {
   const valuesInformation = [
-    { title: "Telefone", value: "(21)99491-9288", icon: <AiFillPhone /> },
+    { title: "Telefone", value: "(21) 99491-9288", icon: <AiFillPhone /> },
     {
       title: "E-mail",
       value: "marcelo.bracet1@gmail.com",
