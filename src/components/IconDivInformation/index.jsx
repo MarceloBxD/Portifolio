@@ -19,11 +19,11 @@ export const IconDivInformation = () => {
   return (
     <section id="information">
       {valuesInformation.map((item) => (
-        <div class="info-card" key={item.title}>
+        <div className="info-card" key={item.title}>
           <a id={item.title} href="icon">
             {item.icon}
           </a>
-          <div class="info-values">
+          <div className="info-values">
             <h3>{item.title}</h3>
             <p>{item.value}</p>
           </div>
