@@ -21,7 +21,7 @@ export const TechnologiesContainer = () => {
       id: "css",
       name: "CSS3",
       icon: <DiCss3 />,
-      text: "Usada para estilizar o site, dar vida ao que o usuário vê.",
+      text: "Usada para estilizar o site, dar vida ao que o usuário enxerga.",
     },
     {
       id: "js",
