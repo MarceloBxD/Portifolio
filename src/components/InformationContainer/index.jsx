@@ -1,7 +1,8 @@
 import React from "react";
-import { AiFillPhone, AiOutlineMail, AiFillEnviornment } from "react-icons/ai";
 import "../../styles/components/informationcontainer.sass";
 
+import { IconDivInformation } from "../IconDivInformation";
+
 export const InformationContainer = () => {
-  return <div>InformationContainer</div>;
+  return <IconDivInformation />;
 };
