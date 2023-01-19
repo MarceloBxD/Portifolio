@@ -15,11 +15,34 @@
 
         .technology-card
             @include mixins.center
+            display: flex
+            justify-content: space-between
             gap: 1rem
             padding: 1rem
             border: 1px solid #333
             width: 100%
             border-radius: variables.$card-border-radius
+
+            .icon
+                flex: 1
+
+            .text
+                flex: 2
+                text-align: center
+
+            .description
+                flex: 1
+                text-align: center
+                
+            .img
+                flex: 2
+                object-fit: cover
+                background-position: center
+                background-size: cover
+                background-repeat: no-repeat
+                width: "100%"
+                height: "100px"
+
 
             h3
                 color: variables.$text-color

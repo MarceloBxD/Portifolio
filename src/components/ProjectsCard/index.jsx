@@ -38,8 +38,14 @@ export const ProjectsCard = () => {
       <div className="technologies-grid">
         {projects.map((project) => (
           <div className="technology-card" id={project.name} key={project.name}>
-            <img src={project.img} />
-            <div className="tech-info">
+            <div className="img">
+              <img
+                className="img"
+                style={{ width: "100%", height: "100px" }}
+                src={weatherPhoto}
+              />
+            </div>
+            <div className="description">
               <h3>{project.name}</h3>
               <p>{project.description}</p>
               <a href={project.link}>{project.link}</a>
