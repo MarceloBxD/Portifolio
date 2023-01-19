@@ -1,15 +1,16 @@
 import React from "react";
+import { ProjectsCard } from "../ProjectsCard";
+import "../../styles/components/technologiescontainer.sass";
 
 export const ProjectsContainer = () => {
   return (
-    <section className="projects-container">
+    <section className="technologies-container">
       <h2>Projetos</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi fugiat
-        nesciunt earum quis temporibus aspernatur ut. Nisi veniam commodi eos
-        dolores, inventore unde provident quas corrupti sapiente deserunt, iusto
-        non!
-      </p>
+      <section className="technologies-grid">
+        <div className="technology-card">
+          <ProjectsCard />
+        </div>
+      </section>
       <a href="#" className="btn">
         Ver projetos
       </a>

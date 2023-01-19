@@ -21,7 +21,7 @@ export const TechnologiesContainer = () => {
       id: "css",
       name: "CSS3",
       icon: <DiCss3 />,
-      text: "Usada para estilizar o site, dar vida ao que o usuário enxerga.",
+      text: "Usada para estilizar o site, dar vida ao que o usuário enxerga para que possua uma melhor experiência.",
     },
     {
       id: "js",
@@ -39,7 +39,7 @@ export const TechnologiesContainer = () => {
       id: "mysql",
       name: "MySQL",
       icon: <DiMysql />,
-      text: "Banco de dados utilizados para armazenar informações e reter dados dos usuários.",
+      text: "Banco de dados utilizados para armazenar informações e reter dados dos usuários que tiveram contato com o site.",
     },
     {
       id: "react",
@@ -55,8 +55,8 @@ export const TechnologiesContainer = () => {
       <div className="technologies-grid">
         {technologies.map((tech) => (
           <div className="technology-card" id={tech.id} key={tech.id}>
-            {tech.icon}
-            <div className="tech-info">
+            <p>{tech.icon}</p>
+            <div>
               <h3>{tech.name}</h3>
               <p>{tech.text}</p>
             </div>

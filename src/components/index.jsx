@@ -5,6 +5,7 @@ import { InformationContainer } from "./InformationContainer";
 import { AboutContainer } from "./AboutContainer";
 import { ProjectsContainer } from "./ProjectsContainer";
 import { TechnologiesContainer } from "./TechnologiesContainer";
+import { ProjectsCard } from "./ProjectsCard";
 
 export {
   SideBar,
@@ -14,4 +15,5 @@ export {
   AboutContainer,
   TechnologiesContainer,
   ProjectsContainer,
+  ProjectsCard,
 };
