@@ -11,9 +11,6 @@ export const ProjectsContainer = () => {
           <ProjectsCard />
         </div>
       </section>
-      <a href="#" style={{ marginTop: "20px" }} className="btn">
-        Ver projetos
-      </a>
     </section>
   );
 };
