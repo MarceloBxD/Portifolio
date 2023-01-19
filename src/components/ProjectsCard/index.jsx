@@ -2,32 +2,33 @@ import React from "react";
 import weatherPhoto from "../../assets/images/weatherP.jpeg";
 import imcImg from "../../assets/images/imc.png";
 import crudImg from "../../assets/images/crud.jpeg";
+import githubImg from "../../assets/images/github.png";
 import "../../styles/components/technologiescontainer.sass";
 
 export const ProjectsCard = () => {
   const projects = [
     {
       name: "IMC",
-      description: "Cálculo IMC",
+      description: "Cálculo IMC (Índice de Massa Corporal)",
       image: `${imcImg}`,
-      link: "https://google.com",
+      link: "https://github.com/MarceloBxD/react-calc-imc",
     },
     {
       name: "Github Explorer",
-      description: "Procurar por perfis do Github",
-      image: "",
+      description: "Procurar por perfis existentes no Github",
+      image: `${githubImg}`,
       link: "https://github-stats-users.netlify.app/",
     },
     {
-      name: "Crud c/ Firebase",
-      description: "Cadastro feito com o banco de dados com Firebase",
-      image: crudImg,
-      link: "https://google.com",
+      name: "Crud c/ banco de dados não relacional do Firebase",
+      description: "Autenticação de usuário e cadastro de dados",
+      image: `${crudImg}`,
+      link: "https://github.com/MarceloBxD/projectCadastro",
     },
     {
       name: "Clima tempo",
       description: "Projeto de clima atual",
-      image: weatherPhoto,
+      image: `${weatherPhoto}`,
       link: "https://weatherprojectmarcelo.netlify.app/",
     },
   ];
